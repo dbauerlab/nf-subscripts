@@ -19,10 +19,10 @@ REF=/camp/home/bootj/working/bootj/projects/bauerd/ollie.platt/incellulo.splash/
 
 cd /camp/home/bootj/working/bootj/projects/bauerd/ollie.platt/incellulo.splash
 
-#nextflow pull amchakra/tosca -r dev
-
-nextflow run ~/.nextflow/assets/amchakra/tosca/main.nf \
+nextflow pull amchakra/tosca -r main
+nextflow run amchakra/tosca \
 -resume \
+-r main \
 -profile crick \
 --input samplesheet_r2.csv \
 --outdir results_r2 \
