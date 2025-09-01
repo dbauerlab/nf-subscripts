@@ -19,7 +19,7 @@ REF=/camp/home/bootj/working/bootj/projects/bauerd/ollie.platt/incellulo.splash/
 
 cd /camp/home/bootj/working/bootj/projects/bauerd/ollie.platt/incellulo.splash
 
-nextflow pull amchakra/tosca -r main
+nextflow pull amchakra/tosca
 nextflow run amchakra/tosca \
 -resume \
 -r main \
