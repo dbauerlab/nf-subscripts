@@ -64,4 +64,6 @@ This repository contains SLURM job submission scripts for various Nextflow pipel
 - **`sars-cov2_mut_ont_vgp.sh`**: Processes SARS-CoV-2 nanopore (Oxford Nanopore Technologies) sequencing data with focus on detecting mouse-adapted mutations and other variants of interest. Includes QC/trimming, Minimap2 alignment, ARTIC primer trimming, and nanopore-specific variant calling. Configured with 16GB memory for long-read data processing.
 
 ### nf-vjunc/
-Currently empty. This folder is reserved for future V-junction analysis pipeline scripts.
+**V-junction Analysis Pipeline**
+
+- **`nf-vjunc_run.sh`**: Runs the nf-vjunc pipeline for V-junction analysis. Performs alignment against host reference genome (GRCh38) to identify viral-genomic junctions. Uses the aligner branch of the nf-vjunc pipeline and is configured for processing samples with provided samplesheets.
