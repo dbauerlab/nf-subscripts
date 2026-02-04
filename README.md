@@ -54,7 +54,7 @@ This repository contains SLURM job submission scripts for various Nextflow pipel
 ### tosca/
 **TOSCA Pipeline - Ollie's In Cellulo Splash Analysis**
 
-- **`tosca.sh`**: Processes in cellulo splash sequencing data using the TOSCA pipeline. Analyzes RNA-seq data with STAR alignment, generates transcript abundance estimates, and produces spatial analysis outputs. Configured for the Crick cluster with 512GB memory and 8 CPUs.
+- **`incellulo_splash.sh`**: Processes in cellulo splash sequencing data using the TOSCA pipeline. Analyzes RNA-seq data with STAR alignment, generates transcript abundance estimates, and produces spatial analysis outputs. Configured for the Crick cluster with 512GB memory and 8 CPUs.
 
 ### vgp/ (Viral Genomics Pipeline)
 **SARS-CoV-2 Viral Genomics Pipeline**
